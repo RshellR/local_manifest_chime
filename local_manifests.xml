@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="joe" fetch="https://github.com/Joe7500" />
+  <remote name="LOS" fetch="https://github.com/lineageos" />
+
+  <!-- Device tree -->
+  <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="joe" revision="lineage-22" />
+
+  <!-- Kernel tree -->
+  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="joe" revision="main" />
+
+  <!-- Vendor Trees --> 
+  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="joe" revision="lineage-22" />
+
+  <!-- Hardware Xiaomi --> 
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-22.0" />
+  
+</manifest>
