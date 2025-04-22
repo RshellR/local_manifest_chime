@@ -2,19 +2,19 @@
 <manifest>
   
   <!-- Remotes -->
-  <remote name="joe" fetch="https://github.com/Joe7500" />
+  <remote name="crdroid" fetch="https://github.com/crdroidandroid" />
   <remote name="LOS" fetch="https://github.com/lineageos" />
   
-  <!-- Device Tree -->
-  <project path="device/xiaomi/chime" name="device_xiaomi_chime" remote="joe" revision="lineage-22.2" />
+  <!-- Device Trees -->
+  <project path="device/xiaomi/chime" name="android_device_xiaomi_chime" remote="crdroid" revision="13.0" />
 
-  <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/chime" name="vendor_xiaomi_chime" remote="joe" revision="lineage-22.2" />
+  <!-- kernel tree -->
+  <project path="kernel/xiaomi/chime" name="android_kernel_xiaomi_chime" remote="crdroid" revision="13.0" />
 
-  <!-- Kernel -->
-  <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="joe" revision="ksu" />
+  <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/chime" name="android_vendor_xiaomi_chime" remote="crdroid" revision="13.0" />
 
   <!-- Hardware Xiaomi --> 
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-22.2" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-20" />
   
 </manifest>
