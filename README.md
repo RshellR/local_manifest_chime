@@ -1,7 +1,9 @@
 # local_manifest_chime
 
-Local manifest for Lineage OS 20
+Local manifest for AfterLife 13
 
 ```
-git clone https://github.com/RshellR/local_manifest_chime.git -b 20 .repo/local_manifests
+
+git clone https://github.com/RshellR/local_manifest_chime.git -b afterlife .repo/local_manifests
+
 ```
