@@ -15,6 +15,6 @@
   <project path="kernel/xiaomi/chime" name="kernel_xiaomi_chime" remote="joe" revision="ksu" />
 
   <!-- Hardware Xiaomi --> 
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-22.2" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="LOS" revision="lineage-23.0" />
   
 </manifest>
